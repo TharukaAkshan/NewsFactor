@@ -1,0 +1,443 @@
+/* ===========================main page================================== */
+
+.top-section {
+  background-image: url(../images/landpage\ top.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: -50px;
+}
+#logo {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 250px;
+  height: 80px;
+  /* position:absolute; */
+}
+.nav-link {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  margin-top: 10%;
+}
+.nav {
+  float: right;
+}
+hr {
+  border: 3px solid white;
+  border-bottom: none;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: -10px;
+}
+.top-section p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.text-one {
+  font-size: 50px;
+  margin-top: 10%;
+  /* font-weight:100px; */
+}
+.text-two {
+  font-size: 64px;
+  font-weight: bold;
+}
+.btn {
+  background-color: white;
+  font-weight: 500;
+  width: 175px;
+  margin-bottom: 15%;
+}
+.contact-us-btn {
+  text-align: center;
+}
+/* ==================================================================== */
+.services-section {
+  width: 100%;
+  height: auto;
+}
+.services-section h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-family: cursive;
+  font-weight: 900;
+  font-size: 48px;
+}
+.icons {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 100%;
+}
+.row {
+  margin-top: 50px;
+}
+.row p {
+  width: 232px;
+  height: 100px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+  /* or 167% */
+
+  text-align: center;
+
+  color: #b10000;
+}
+.icons img {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  padding-left: 30px;
+}
+
+/* =================================================================================== */
+
+.partners-section {
+  background-image: url(../images/landpage2.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.partners-section h1 {
+  text-align: center;
+  padding-top: 80px;
+  font-family: cursive;
+  font-weight: 900;
+  font-size: 48px;
+  color: white;
+}
+.partner-icons {
+  /* margin: 70px 40px 70px 40px; */
+  margin-top: 70px;
+  padding-bottom: 100px;
+  width: 80%;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.row {
+  margin-top: 50px;
+}
+#partner-p {
+  /* padding-left: 80px; */
+  border: 40px;
+}
+#partner-p p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #feffd7;
+}
+#partner-p img {
+  width: 242px;
+  height: 242px;
+  margin-bottom: 29px;
+  border: 3px solid white;
+  border-radius: 100%;
+
+  /* border-radius:50px; */
+}
+/* ========================================================================== */
+
+.footer {
+  height: auto;
+  width: 100%;
+  margin-top: -50px;
+  background-color: #e8f7ff;
+}
+.social-apps {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  margin-bottom: 10%;
+}
+.contact-icons {
+  width: 31px;
+  height: 31px;
+  float: left;
+  margin-left: 20%;
+  margin-right: 5%;
+}
+#contact-us p {
+  text-align: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  width: 90%;
+  /* margin-left: 10%; */
+  /* margin-left: 100px; */
+  padding-left: 130px;
+  color: #000000;
+}
+.details {
+  margin-top: -60px;
+}
+#contact-us h3 {
+  margin-top: 20%;
+  margin-bottom: 40px;
+}
+
+#opening-times h3 {
+  margin-top: 20%;
+  margin-bottom: 40px;
+}
+#opening-times img {
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin-left: 35%;
+  margin-right: 1%;
+}
+#opening-times p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: -20%;
+}
+#opening-times {
+  margin-bottom: 12%;
+}
+#footer-links {
+  margin-top: 12%;
+}
+#footer-links a {
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+#footer-links a:hover{
+  color: #b10000;
+}
+
+.footer-items {
+  padding-bottom: 50px;
+}
+.days {
+  float: left;
+  text-align: left;
+  padding-left: 200px;
+  margin-right: 20px;
+}
+.times {
+  float: right;
+  padding-right: 50px;
+  margin-left: 20px;
+}
+.days-times {
+  margin-bottom: 12%;
+  margin-top: -40px;
+}
+.days-times p {
+  color: #000000;
+}
+.footer-bottom {
+  width: 100%;
+  height: 100px;
+}
+.footer-bottom img {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20%;
+  width: 250px;
+  height: 70px;
+}
+.footer-bottom p {
+  text-align: center;
+  margin-left: -50px;
+}
+
+/* ================================careers page===================================================== */
+
+.careers-top-section {
+  background-image: url(../images/careers.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: -50px;
+}
+.careers-top-section p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: bold;
+  padding-top: 15%;
+  padding-bottom: 20%;
+}
+.careers-section {
+  width: 100%;
+  height: auto;
+}
+.careers-section img{
+  width: 1000px;
+  height: 700px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+/* ===================================about us page====================================================================== */
+.about-top-section {
+  background-image: url(../images/about1.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: -50px;
+}
+.about-top-section p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 30px;
+  /* or 62% */
+  text-align: left;
+  color: #e9e9e9;
+  padding-top: 5%;
+  margin-left: 20px;
+}
+.text-part p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  /* or 188% */
+  text-align: center;
+  color: #e9e9e9;
+  margin-top: 3%;
+  padding-bottom: 20%;
+}
+/* ============================================ */
+.official-data{
+  width: 100%;
+  height: auto;
+}
+.official-data h3 {
+  margin-top: 5%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 30px;
+  /* or 62% */
+  margin-left: 10px;
+
+  color: #000000;
+}
+.row-data {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 500px;
+}
+#row-one {
+  float: left;
+  padding-left: 10%;
+  /* margin-right: 20px; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120%;
+  line-height: 30px;
+  /* or 94% */
+
+  color: #b64545;
+}
+#row-two {
+  /* position: relative; */
+  padding-left: 5%;
+  float: right;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 30px;
+  /* or 94% */
+
+  color: #000000;
+}
+
+/* ================================================================= */
+
+.manager{
+  background-color:#21261F ;
+  /* padding-bottom: 500px; */
+  width: 100%;
+  height: auto;
+}
+.manager h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 30px;
+  /* or 62% */
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+  
+  color: #FFFFFF;
+}
+.profile img{
+  width: 220px;
+  height: 327px;
+  border: 2px solid black;
+
+}
+#pro-one{
+  float: left;
+  /* padding-left: 150px; */
+}
+#pro-two{
+  float: right;
+  /* padding-left: 200px; */
+}
+.profile{
+  width: 900px;
+}
+.profile p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight:bold;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #000000;
+}
+.pro-one-d img{
+  width: 20px;
+  height: 20px;
+
+}
+.pro-one-d p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+}
+.pro-hr{
+  margin-top: 200px;
+}
+
+/* ==========================end====================================== */
